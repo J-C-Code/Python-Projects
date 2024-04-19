@@ -1,8 +1,7 @@
 import requests
 import json
 
-
-pantryID = TOKEN
+pantryID = os.environ['SEC_TOKEN']
 
 pantry = (f'https://getpantry.cloud/apiv1/pantry/{pantryID}/basket/testBasket')
 
